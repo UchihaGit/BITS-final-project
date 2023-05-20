@@ -1,0 +1,28 @@
+.chat {
+  text-align: left;
+  padding: 1rem;
+  text-transform: capitalize;
+  background-color: #635985;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.bg-change {
+  background-color: #443c68;
+}
+
+.chat-window {
+  height: 80vh;
+  background-color: rgba(153, 153, 153, 0.1);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.chat .name {
+  font-weight: bold;
+}
+
+.chat-input {
+  width: 60%;
+  padding: 0.5rem;
+}

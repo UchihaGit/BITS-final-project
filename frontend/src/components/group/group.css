@@ -1,0 +1,14 @@
+.group {
+  position: absolute;
+  left: 12vw;
+  border-right: 1px solid white;
+}
+
+.group div {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.group div:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

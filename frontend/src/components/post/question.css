@@ -1,0 +1,63 @@
+.question {
+  background-color: rgba(153, 153, 153, 0.08);
+  padding: 3rem;
+}
+
+.question h4 {
+  background-color: #443c68;
+  display: inline-block;
+  padding: 0.6rem;
+}
+
+.post-info {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question div div * {
+  margin: 0 5px;
+}
+
+.long-desc {
+  background-color: rgba(153, 153, 153, 0.1);
+}
+
+#upvote {
+  background: url("https://api.iconify.design/bx/upvote.svg") no-repeat center
+    center / contain;
+}
+
+#downvote {
+  background: url("https://api.iconify.design/bx/upvote.svg?flip=vertical")
+    no-repeat center center / contain;
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+}
+
+.votes button {
+  border: 0;
+  outline: none !important;
+}
+
+.votes-parent {
+  display: flex;
+  padding: 0;
+}
+
+.votes-parent span {
+  margin: 0;
+}
+
+.orange {
+  background-color: orangered !important;
+}
+
+.lg-desc-sec {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+}

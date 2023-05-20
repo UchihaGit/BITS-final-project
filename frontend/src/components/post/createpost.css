@@ -1,0 +1,24 @@
+.create-post form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-post label {
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.create-post form input {
+  width: 50%;
+}
+
+.create-post form textarea {
+  width: 50%;
+}
+
+.create-post form select {
+  width: 30%;
+  text-align: center;
+}

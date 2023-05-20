@@ -1,0 +1,59 @@
+.comment-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.comment-form textarea {
+  height: 8rem;
+  width: 30rem;
+  margin-right: 10px;
+}
+
+.comment {
+  background-color: rgba(153, 153, 153, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px solid white;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+#upvote {
+  background: url("https://api.iconify.design/bx/upvote.svg") no-repeat center
+    center / contain;
+  border: 0;
+  outline: none;
+}
+
+#downvote {
+  background: url("https://api.iconify.design/bx/upvote.svg?flip=vertical")
+    no-repeat center center / contain;
+  border: 0;
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: start;
+  align-self: baseline;
+}
+
+.footer * {
+  margin-right: 15px;
+}
+
+.footer span {
+  cursor: pointer;
+}
+
+.orange {
+  background-color: orangered !important;
+}
